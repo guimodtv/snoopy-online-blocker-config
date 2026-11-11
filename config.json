@@ -1,0 +1,31 @@
+{
+  "schema": "snoopy-firewall/local-config",
+  "app": "SNOOPY FIREWALL",
+  "version": 1,
+  "updatedAt": "2026-11-10T22:00:00-03:00",
+  "enabled": true,
+  "mode": "ALLOWLIST",
+  "allowDnsForBlockedApps": false,
+  "allowlist": [
+    "com.dts.freefiremax",
+    "com.dts.freefireth"
+  ],
+  "appStates": {
+    "com.dts.freefiremax": true,
+    "com.dts.freefireth": true,
+    "com.whatsapp": false
+  },
+  "preferences": {
+    "showSystemApps": true,
+    "searchQuery": "",
+    "selectionMode": "PER_APP_ALLOWLIST"
+  },
+  "_meta": {
+    "note": "Arquivo de regras do SNOOPY FIREWALL. Não é lido por outros aplicativos.",
+    "firewall": "Android VpnService, sem root"
+  },
+  "integrity": {
+    "sha256": "f628fb009c4c1bcad44839b7ef6b085efb67c8ad49f6e6622f179947e419a8b6",
+    "ed25519": "mCT0uk/hEmZbQBRtxAxyivAfqqNYAxDj5nDvqIWggftI4NxfldiWT3XXvyft4GQ1Ajb226/6cFt7SamGtWHsAw=="
+  }
+}
